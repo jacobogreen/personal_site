@@ -1,4 +1,6 @@
-
+body {
+    font-family: helvetica sans-serif;
+}
 
 .content-page-container {
     margin:0;
@@ -25,7 +27,6 @@
 }
 .index-container-item {
     padding: 10px;
-    font-family: helvetica;
     font-size: 100%;
     width: 25vh;
     height: 25vh;
@@ -47,7 +48,7 @@ img {
 .content-container {
     display:flex;
     flex-direction: column;
-    max-width: 680px;
+    max-width: 900px;
     width: 100%;
 }
 
@@ -57,13 +58,13 @@ img {
 
 .divider {
     border-bottom: black 1px solid;
-    margin: 10px 0px 10px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 /** typeography **/
 
 .title-text {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .content-title-text {
@@ -72,4 +73,8 @@ img {
 }
 .content-text {
     font-size: 1.5em;
+}
+
+.content-img {
+    max-width: 480px;
 }

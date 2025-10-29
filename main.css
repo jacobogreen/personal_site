@@ -77,3 +77,21 @@ img {
 .content-img {
     max-width: 480px;
 }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    padding-right: 5%;
+    font-size: 1.5rem;
+} 
+
+.nav-item a:link {
+    font-family: Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
